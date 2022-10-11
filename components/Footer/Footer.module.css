@@ -1,0 +1,27 @@
+.footerBg {
+  background: #181818;
+}
+.shade {
+  padding-top: 470px;
+  margin-top: -470px;
+  background: linear-gradient(180deg, transparent 0, #181818);
+  bottom: 100%;
+  content: " ";
+  height: 15em;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  position: relative;
+  backdrop-filter: blur(5px);
+  margin-bottom: 300px;
+}
+.btnRed {
+  background-color: #e50914;
+  background-image: linear-gradient(180deg, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+}

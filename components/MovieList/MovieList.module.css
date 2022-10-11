@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.iconRight {
+  margin-top: 150px;
+  position: absolute;
+  right: 20px;
+  background-color: #000;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.iconLeft {
+  margin-top: 150px;
+  position: absolute;
+  left: 20px;
+  background-color: #000;
+  border-radius: 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+.singleMovie {
+  min-width: 250px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.singleMovie img {
+  cursor: pointer;
+  transition: all 1s;
+}
+.singleMovie img:hover {
+  transform: scale(1.1);
+}

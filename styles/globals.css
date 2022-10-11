@@ -21,6 +21,15 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #181818 !important;
+    overflow-x: hidden !important;
   }
+}
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

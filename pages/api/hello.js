@@ -1,5 +1,9 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
-}
+const getGenre = async () => {
+  fetch("https://api.github.com/users/manishmshiva")
+    // Handle success
+    .then((response) => response.json()) // convert to json
+    .then((json) => console.log(json)) //print data to console
+    .catch((err) => console.log("Request Failed", err)); // Catch errors
+};
